@@ -4,9 +4,10 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "deploy": "npm run build && wrangler pages deploy",
+    "deploy": "npm run build && wrangler deploy",
     "dev": "react-router dev",
-    "pages:dev": "npm run build && wrangler pages dev",
+    "worker:dev": "npm run build && wrangler dev",
+    "versions:upload": "npm run build && wrangler versions upload",
     "start": "react-router-serve ./build/server/index.js"
   },
   "dependencies": {

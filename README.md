@@ -41,18 +41,22 @@ Create a production build:
 npm run build
 ```
 
-## Deploying to Cloudflare Pages
+## Deploying to Cloudflare Workers
 
-Deploy from this directory:
+For Cloudflare Workers Builds, use these settings:
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Version command: `npx wrangler versions upload`
+- Root directory: `/`
+
+For a manual deploy from your machine, run:
 
 ```bash
 npm run deploy
 ```
 
-For Cloudflare Pages Git integration, use these settings:
-
-- Build command: `npm run build`
-- Build output directory: `build/client`
+Manual deploys require Wrangler to be logged in, or a `CLOUDFLARE_API_TOKEN` with Workers edit access for this account.
 
 ## Routes
 
