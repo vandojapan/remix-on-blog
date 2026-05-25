@@ -6,7 +6,13 @@ const requestHandler = createRequestHandler(
 );
 
 export default {
-  fetch(request, env, ctx) {
+  async fetch(request, env, ctx) {
+    const assetResponse = await env.ASSETS.fetch(request);
+
+    if (assetResponse.status !== 404) {
+      return assetResponse;
+    }
+
     return requestHandler(request, {
       cloudflare: { env, ctx },
       env,
