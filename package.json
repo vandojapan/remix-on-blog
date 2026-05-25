@@ -1,0 +1,10 @@
+{
+  "name": "remix-on-blog",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix my-react-router-app run build",
+    "deploy": "npm --prefix my-react-router-app run deploy",
+    "dev": "npm --prefix my-react-router-app run dev",
+    "pages:dev": "npm --prefix my-react-router-app run pages:dev"
+  }
+}
