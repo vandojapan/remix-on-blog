@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Layered route map artwork</title>
+  <desc id="desc">Abstract green and cream panels connected by fine route lines.</desc>
+  <rect width="1200" height="900" fill="#e9e2d4"/>
+  <rect x="92" y="112" width="344" height="486" rx="28" fill="#1f6a5f"/>
+  <rect x="504" y="76" width="604" height="320" rx="28" fill="#f7f3ea"/>
+  <rect x="614" y="466" width="396" height="280" rx="28" fill="#c88435"/>
+  <path d="M245 342 C420 190 550 246 690 190 S956 190 1034 260" fill="none" stroke="#121614" stroke-width="18" stroke-linecap="round"/>
+  <path d="M286 515 C420 654 596 556 724 638 S920 720 1010 592" fill="none" stroke="#f7f3ea" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="245" cy="342" r="42" fill="#f0b15c"/>
+  <circle cx="690" cy="190" r="42" fill="#7bc7b5"/>
+  <circle cx="1010" cy="592" r="42" fill="#154a42"/>
+  <g opacity=".18" stroke="#121614" stroke-width="2">
+    <path d="M0 756h1200"/>
+    <path d="M0 636h1200"/>
+    <path d="M0 516h1200"/>
+    <path d="M0 396h1200"/>
+    <path d="M0 276h1200"/>
+    <path d="M0 156h1200"/>
+    <path d="M156 0v900"/>
+    <path d="M276 0v900"/>
+    <path d="M396 0v900"/>
+    <path d="M516 0v900"/>
+    <path d="M636 0v900"/>
+    <path d="M756 0v900"/>
+    <path d="M876 0v900"/>
+    <path d="M996 0v900"/>
+  </g>
+</svg>

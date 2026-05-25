@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">CSS module gallery artwork</title>
+  <desc id="desc">Abstract modular gallery blocks in teal, clay, cream, and charcoal.</desc>
+  <rect width="1200" height="900" fill="#171c19"/>
+  <rect x="86" y="88" width="282" height="282" rx="18" fill="#f3f0e9"/>
+  <rect x="414" y="88" width="326" height="492" rx="18" fill="#7bc7b5"/>
+  <rect x="786" y="88" width="328" height="228" rx="18" fill="#c88435"/>
+  <rect x="86" y="418" width="282" height="394" rx="18" fill="#246b5f"/>
+  <rect x="786" y="364" width="328" height="448" rx="18" fill="#f0b15c"/>
+  <path d="M164 226h126M484 204h186M484 280h128M858 194h180M858 694h180M164 604h126" stroke="#121614" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="576" cy="440" r="86" fill="#121614" opacity=".85"/>
+  <circle cx="950" cy="504" r="70" fill="#f7f3ea" opacity=".9"/>
+</svg>

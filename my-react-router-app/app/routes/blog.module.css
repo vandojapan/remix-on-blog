@@ -1,0 +1,86 @@
+.page {
+  display: grid;
+  gap: clamp(2rem, 5vw, 3.5rem);
+  padding: clamp(2rem, 6vw, 4rem) 0 0;
+}
+
+.header {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 760px;
+}
+
+.kicker {
+  margin: 0;
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 7vw, 5rem);
+  line-height: 1;
+}
+
+.header p {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.85;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 1.4rem);
+  align-items: start;
+}
+
+.grid > article {
+  min-width: 0;
+}
+
+.loadMore {
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+}
+
+.loadMore button {
+  min-height: 3rem;
+  padding: 0 1.25rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--surface);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.loadMore button:hover {
+  background: var(--accent-strong);
+}
+
+.loadMore button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.loadMore p,
+.loadMore span {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .grid {
+    gap: 0.75rem;
+  }
+
+  .grid > article {
+    min-width: 0;
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vite minimal stack artwork</title>
+  <desc id="desc">Abstract editorial image with angled shards and a bright focal shape.</desc>
+  <rect width="1200" height="900" fill="#26312d"/>
+  <path d="M182 114h432L404 786H86z" fill="#f3f0e9"/>
+  <path d="M518 114h514L778 786H294z" fill="#7bc7b5"/>
+  <path d="M778 114h304L956 786H650z" fill="#c88435"/>
+  <path d="M528 306h188l-96 262 236-332H668l92-174z" fill="#121614"/>
+  <path d="M176 708h850" stroke="#f0b15c" stroke-width="24" stroke-linecap="round"/>
+  <g opacity=".18" fill="#ffffff">
+    <circle cx="204" cy="228" r="28"/>
+    <circle cx="984" cy="264" r="28"/>
+    <circle cx="938" cy="622" r="28"/>
+  </g>
+</svg>

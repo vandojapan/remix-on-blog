@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fetch stream artwork</title>
+  <desc id="desc">Abstract data cards floating along a warm diagonal stream.</desc>
+  <rect width="1200" height="900" fill="#f8f5ef"/>
+  <path d="M-80 780 C236 570 298 650 536 430 S876 162 1280 236" fill="none" stroke="#246b5f" stroke-width="138" stroke-linecap="round"/>
+  <path d="M-70 774 C234 584 330 640 538 446 S870 188 1280 256" fill="none" stroke="#7bc7b5" stroke-width="58" stroke-linecap="round"/>
+  <g fill="#ffffff" stroke="#ded7cb" stroke-width="4">
+    <rect x="96" y="166" width="278" height="188" rx="20"/>
+    <rect x="458" y="92" width="286" height="210" rx="20"/>
+    <rect x="806" y="420" width="292" height="220" rx="20"/>
+    <rect x="262" y="564" width="280" height="188" rx="20"/>
+  </g>
+  <g stroke="#1d2320" stroke-width="16" stroke-linecap="round" opacity=".82">
+    <path d="M152 230h142M152 292h96"/>
+    <path d="M516 166h148M516 230h88"/>
+    <path d="M864 500h154M864 566h110"/>
+    <path d="M320 628h136M320 690h84"/>
+  </g>
+  <circle cx="640" cy="426" r="58" fill="#c88435"/>
+</svg>
